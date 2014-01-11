@@ -1,0 +1,9 @@
+@media screen {
+  .test .other {
+    other: 123;
+  }
+
+  .test {
+    prop: testing;
+  }
+}
