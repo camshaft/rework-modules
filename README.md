@@ -37,13 +37,19 @@ We would need to pass an object like the following:
 var rework = require('rework-modules');
 var read = require('fs').readFileSync;
 
+function load(file) {
+  return function() {
+    return read(file, 'utf8');
+  }
+}
+
 var modules = {
   'index': 'my-app/index',
   'my-app': 'my-app/index',
-  'my-app/index': function () { return read('my-app/index.styl', 'utf8') },
-  'my-app/other-styles': function () { return read('my-app/other-styles.styl', 'utf8') },
+  'my-app/index': load('my-app/index.styl'),
+  'my-app/other-styles': load('my-app/other-styles.styl'),
   'my-theme': 'my-theme/index',
-  'my-theme/index': function () { return read('my-theme/index.styl', 'utf8') }
+  'my-theme/index': load('my-theme/index.styl') }
 };
 
 var out = rework(modules);
