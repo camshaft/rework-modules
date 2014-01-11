@@ -1,6 +1,6 @@
 {
   "name": "rework-modules",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Rework plugin for modular css",
   "main": "index.js",
   "scripts": {
