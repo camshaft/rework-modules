@@ -1,6 +1,6 @@
 {
   "name": "rework-modules",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rework plugin for modular css",
   "main": "index.js",
   "scripts": {
@@ -21,12 +21,12 @@
     "url": "https://github.com/CamShaft/rework-modules/issues"
   },
   "homepage": "https://github.com/CamShaft/rework-modules",
-  "devDependencies": {
-    "should": "~2.1.1",
-    "mocha": "~1.17.0"
-  },
   "dependencies": {
     "css-whitespace": "~1.1.0",
     "rework": "~0.20.2"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.17.0"
   }
 }
