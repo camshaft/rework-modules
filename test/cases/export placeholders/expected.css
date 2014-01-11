@@ -1,0 +1,7 @@
+%export-placeholders/placeholder|my-placeholder {
+  prop: value;
+}
+
+.thingy {
+  extend: %export-placeholders/placeholder|my-placeholder;
+}

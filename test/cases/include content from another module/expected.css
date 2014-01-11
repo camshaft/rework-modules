@@ -1,0 +1,15 @@
+.my-thing {
+  here: be dragons;
+}
+
+/*begin content from ignore-content/index in include-content-from-another-module/index*/
+
+.thingy {
+  foo: bar;
+}
+
+/*end content from ignore-content/index in include-content-from-another-module/index*/
+
+.other-thing {
+  cool: story bro;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "rework-modules",
+  "version": "0.1.0",
+  "description": "Rework plugin for modular css",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/rework-modules.git"
+  },
+  "keywords": [
+    "rework",
+    "css",
+    "module"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamShaft/rework-modules/issues"
+  },
+  "homepage": "https://github.com/CamShaft/rework-modules",
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.17.0"
+  },
+  "dependencies": {
+    "css-whitespace": "~1.1.0",
+    "rework": "~0.20.2"
+  }
+}

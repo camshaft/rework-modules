@@ -1,0 +1,7 @@
+%rename-local-usages-of-placeholders/index|placeholder {
+  prop: value;
+}
+
+.thingy {
+  extend: %rename-local-usages-of-placeholders/index|placeholder;
+}
