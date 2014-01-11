@@ -14,7 +14,7 @@ Installation
 $ npm install rework-modules
 ```
 
-You can also try the [rework-modules component plugin](https://github.com/shoelace-ui/shoelace-component) for [component](https://github.com/component/component) build integration.
+You can also try the [rework-modules component plugin](https://github.com/shoelace-ui/component) for [component](https://github.com/component/component) build integration.
 
 Usage
 -----
