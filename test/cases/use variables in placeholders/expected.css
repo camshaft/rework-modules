@@ -1,0 +1,7 @@
+%use-variables-in-placeholders/index|placeholder {
+  prop: 123;
+}
+
+body {
+  extend: %use-variables-in-placeholders/index|placeholder;
+}

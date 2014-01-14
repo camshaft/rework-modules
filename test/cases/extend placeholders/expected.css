@@ -1,0 +1,12 @@
+%extend-placeholders/index|my-placeholder {
+  prop: 123;
+}
+
+%extend-placeholders/index|other-placeholder {
+  extend: %extend-placeholders/index|my-placeholder;
+  other-prop: 456;
+}
+
+body {
+  extend: %extend-placeholders/index|other-placeholder;
+}

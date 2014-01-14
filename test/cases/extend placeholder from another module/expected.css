@@ -1,0 +1,12 @@
+%extend-placeholder-from-another-module/module|foo {
+  prop: 123;
+}
+
+%extend-placeholder-from-another-module/index|bar {
+  extend: %extend-placeholder-from-another-module/module|foo;
+  prop: 456;
+}
+
+body {
+  extend: %extend-placeholder-from-another-module/index|bar;
+}

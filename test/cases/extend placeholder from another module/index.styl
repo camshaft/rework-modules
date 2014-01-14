@@ -1,0 +1,9 @@
+:require
+  mod: ./module
+
+%bar
+  extend: $mod/foo
+  prop: 456
+
+body
+  extend: %bar
